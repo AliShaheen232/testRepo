@@ -26,8 +26,8 @@ contract Etc{
     function setaddrToStr() public  returns(address[] memory _Addr, uint256[] memory _price){
         uint256 length = addrToStr[msg.sender].length;
         console.log("length: " ,length);
-        addrArr = new address[](length);
-        priceArr = new uint256[](length);
+        delete addrArr;
+        delete priceArr;
        
         string[] memory strArr;
         strArr = addrToStr[msg.sender];
