@@ -1,0 +1,180 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "addrToStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "Addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_Addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getaddrToStr",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "_Addr",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_price",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pri",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setaddrToStr",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "_Addr",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_price",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Etc.sol": "Etc"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Console.sol": {
+			"keccak256": "0x367515bd091c14be3a0926c327a07b90bac046f072f89d675baf0cf2bbb24478",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58c7d14c9522f00f579bf73d47b4f123e7e94184e3690a35e615cc967ccceb3c",
+				"dweb:/ipfs/QmZHRPdwMY3fpZ6CVb2SjF257DkmFM8Cbu7AdVehESYi9a"
+			]
+		},
+		"Etc.sol": {
+			"keccak256": "0x7d7af45f4a75d33ae1c42648399447f545d22208ef151f23f929c44a2d318ebe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55aa88cc10745e763a31cac11f903f2cae3fbd4e54f92b810cf64950780d299f",
+				"dweb:/ipfs/QmarEcxQmjzgZjWgKmeWATjMMniy6mb11dyjEL8HY5Yy5o"
+			]
+		}
+	},
+	"version": 1
+}
