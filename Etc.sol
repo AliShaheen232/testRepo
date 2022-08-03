@@ -2,7 +2,6 @@
 pragma solidity ^0.8.4;
 import "./Console.sol";
 
-
 contract Etc{
     struct Data{
         address Addr;
@@ -32,7 +31,6 @@ contract Etc{
         string[] memory strArr;
         strArr = addrToStr[msg.sender];
         uint256 length1 = strArr.length;
-        // strArr = new string [](length);
 
         console.log("length1: ",length1);
 
